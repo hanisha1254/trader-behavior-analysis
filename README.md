@@ -1,5 +1,6 @@
 # trader-behavior-analysis
 Methodology
+
 We analyzed trader behavior on Hyperliquid by combining historical trading data with Bitcoin market sentiment (Fear/Greed index). The data was cleaned, timestamps were aligned at a daily level, and key metrics such as daily PnL, win rate, trade size, and trading frequency were computed. The datasets were merged on date to study how sentiment impacts trader performance and behavior.
 
 
@@ -29,5 +30,6 @@ Strategy Recommendations
 
 
 Bonus Work
+
 A Random Forest model was built to predict trader profitability using sentiment and behavioral features. Additionally, traders were clustered into behavioral archetypes using K-Means clustering.
 
